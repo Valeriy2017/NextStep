@@ -2,6 +2,11 @@
 *{
     box-sizing: border-box;
 }
+p, h1, h2, h3 a{
+  padding: 0;
+  margin: 0;
+  
+}
 body{
   padding: 0;
   margin: 0;
@@ -43,7 +48,7 @@ body{
 li{
   list-style-type: none;
 }
-a{
+li a{
   text-decoration: none;
   color:#E5E7EB;
 }
@@ -65,17 +70,73 @@ a{
 .headr__content-text {
   font-size: 18px;
   color: #E5E7EB;
+  margin: 30px 0 35px 0;
+
 }
+
 .buttom {
-  margin-top: 33px;
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #3882F6;
+  border-radius: 7px;
+  
 }
 .buttom a{
-  background-color: #3882F6;
-  padding: 8px 30px;
-  border-radius: 7px;
+  
+  color:#E5E7EB;
+  text-decoration: none;
 }
 .header-images {
 }
+
+
+
+.section-info {
+  padding: 30px 0 40px 0;
+}
+.info-title h2{
+  text-align: center;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+.info-cart {
+}
+.cart-items {
+  display: flex;
+
+  gap: 50px;
+  justify-content: center;
+}
+.item {
+  width: 150px;
+}
+.item a{
+
+}
+.cart-content {
+  text-decoration: none;
+  color: #1F2937;
+  font-size: 15px;
+}
+.cart-text{
+  text-align: center;
+  padding: 0 1px;
+}
+.cart-img {
+  width: 150px;
+  height: 170px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.cart-text{
+  
+  
+  
+}
+
 
 
 
